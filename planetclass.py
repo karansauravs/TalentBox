@@ -65,6 +65,4 @@ print("Classification Report:")
 print(classification_report(y_test, y_pred))
 print("Accuracy:", accuracy_score(y_test, y_pred))
 
-# Save the model if needed
-# import joblib
-# joblib.dump(model, 'kepler_planet_classifier.pkl')
+
